@@ -1,0 +1,12 @@
+.first_step {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
