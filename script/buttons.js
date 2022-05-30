@@ -13,6 +13,21 @@ $(document).ready(function () {
        });
     });
 
+    $('.button_main, .button_farewell').on('click', function() {
+        $('.success').removeClass('success').addClass('decline');
+        $('.custom-checkbox:checked').prop('checked', false);
+        $('#third > input:first').prop('checked', true);
+        $('#fourth > input:first').prop('checked', true);
+        $('.button_first').attr('disabled', 'disabled');
+        $('.button_second').attr('disabled', 'disabled');
+        $('.button_third').addClass('success').removeAttr('disabled');
+        $('.button_fourth').addClass('success').removeAttr('disabled');
+        $(this).parent().fadeOut(1, function() {
+            $('.first_step').fadeIn(1);
+        });
+    });
+
+
     $('.logo_block').click(function() {
         document.location.reload();
     });
@@ -44,11 +59,11 @@ $(document).ready(function () {
         })
     })
 
-     $('.button_standard').on('click', function() {
+/*     $('.button_standard').on('click', function() {
         $(this).parent().parent().fadeOut(1, function() {
-            $('.final_step').fadeIn(1);
+            $('.farewell').fadeIn(1);
         });
-    });
+    });*/
 
     $('#first > .custom-checkbox, #second > .custom-checkbox').on('click', function() {
         $(this).is('checked') ? $(this).removeAttr('checked') : $(this).attr('checked', 'checked');
@@ -137,46 +152,6 @@ $(document).ready(function () {
 
         interValid = setInterval(varName, 60);
 
-    })
-
-
-
-    $('.submit_final').click(function() {
-
-        let selected_checks = Array.from($("input:checked").next().text());
-        let phone = $('.phone').val();
-        let name = $('.name').val();
-
-        $.ajax({
-            type: "POST",
-            url: "ajax/response.php",
-            cache: false,
-            data: {
-                'selected_checks': selected_checks,
-                'name': name,
-                'phone': phone
-            },
-            dataType: 'html',
-            success: (function(data) {
-                if (data === "success") {
-                    $('#fifth_step').fadeOut(300, function() {
-                        $('#last_step').fadeIn(300);
-                        $('.phone').val("");
-                        $('.name').val("");
-                    });
-                } else {
-                    console.log(data);
-                    $('.phone').text("");
-                    $('#fifth_section').text(data);
-                    $('#fifth_section').fadeOut(1000, function() {
-                        $('#fifth_section').text("Введите ваши данные");
-                        $('#fifth_section').fadeIn(1000);
-                    });
-
-
-                }
-            })
-        });
     });
 
 

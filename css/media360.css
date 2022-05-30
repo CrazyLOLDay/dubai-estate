@@ -30,6 +30,19 @@
         color: #FFFFFF;
     }
 
+    .farewell > .final_thanx {
+        margin-top: 134px;
+        width: 600px;
+        height: 58px;
+        font-family: 'Gotham Pro Medium', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 130%;
+        color: #FFFFFF;
+        padding-bottom: 16px;
+    }
+
     .welcome .button_block {
         margin-top: 39px;
     }

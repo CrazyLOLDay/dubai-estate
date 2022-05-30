@@ -182,17 +182,19 @@
 
             <div class="final_step" style="display: none">
                 <h1 class="attention_text">Подобрано <span id="variants"></span> по вашим параметрам</h1>
-                <h6 class="small_text">Есть выгодные предложения и лоты из закрытых продаж</h6>
+                <h6 class="small_text text3">Есть выгодные предложения и лоты из закрытых продаж</h6>
                 <div class="input_block">
-                    <input type="text" class="inputs phone" name="phone" maxlength="17" placeholder="Ваш телефон" />
-                    <input type="text" class="inputs name" name="username" placeholder="Ваше имя" maxlength="30" />
+                    <input type="text" class="inputs phone" id="phone" name="phone" maxlength="17" placeholder="Ваш телефон" />
+                    <input type="text" class="inputs name" id="username" name="username" placeholder="Ваше имя" maxlength="30" />
                 </div>
 
-                <button class="button button_standard submit_final success">Посмотреть <span id="variants2"></span></button>
+                <button class="button button_standard submit_final">Посмотреть <span id="variants2"></span></button>
             </div>
 
+
+
             <div class="farewell" style="display: none">
-                <h1 class="attention_text">Спасибо!</h1>
+                <p class="final_thanx">Спасибо!</p>
                 <div class="whatsapp_block">
                     <div class="whatsapp_picture">
                         <img class="whatsapp" src="img/whatsapp.png" />
@@ -203,7 +205,7 @@
                         <p>Эксперт пришлет все варианты по WhatsApp</p>
                     </div>
                 </div>
-                <button class="button_main">Начать новый подбор</button>
+                <button class="button_farewell">Начать новый подбор</button>
             </div>
 
 
@@ -214,5 +216,6 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="script/buttons.js"></script>
 <script type="text/javascript" src="script/phone-input.js"></script>
+<script type="text/javascript" src="script/ajax.js"></script>
 </body>
 </html>

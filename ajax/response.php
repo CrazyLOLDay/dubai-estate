@@ -8,7 +8,7 @@
   $message = "Критерии поиска: ";
 
   for ($i = 0; $i < count($checks); $i++) {
-    $message .= "$i . $checks[$i]<br>";
+    $message .= " $checks[$i]";
   }
 
   $subject = "=?utf-8?B?".base64_encode("Недвижимость в Дубаи - Новая заявка")."?=";
