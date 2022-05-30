@@ -1,0 +1,116 @@
+.whatsapp_block .whatsapp_expert {
+    width: 458px;
+    height: 54px;
+    font-family: 'Gotham Pro Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #B7BBC0;
+    margin-left: 41px;
+}
+
+.farewell .whatsapp_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    height: 54px;
+    margin-top: 9px;
+}
+
+.whatsapp_block .whatsapp_picture {
+    width: 46px;
+    height: 46px;
+    margin-left: 5px;
+}
+
+.whatsapp_picture .whatsapp {
+    position: absolute;
+    z-index: 1;
+    width: 46px;
+    height: 46px;
+}
+
+.whatsapp_picture .whatsapp2 {
+    position: absolute;
+    z-index: 2;
+    width: 17px;
+    height: 17px;
+    margin-left: 36px;
+    margin-top: -5px;
+}
+
+.whatsapp_picture .whatsapp_notice {
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 3;
+    width: 17px;
+    height: 17px;
+    margin-left: 43px;
+    margin-top: -3px;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.farewell .button_main {
+    width: 280px;
+    height: 70px;
+    background: #CDA578;
+    box-shadow: 0px 15px 30px rgba(205, 165, 120, 0.5);
+    border-radius: 5px;
+    font-family: 'Gotham Pro Medium', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155%;
+    color: #FFFFFF;
+    margin-top: 49px;
+    margin-left: 5px;
+}
+
+.description_desktop {
+    height: 25px;
+    font-family: 'Gotham Pro Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    color: #FFFFFF;
+}
+
+.description_desktop_mobile {
+    font-family: "Gotham Pro Light", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 306px;
+    height: 22px;
+    left: 53px;
+    top: 358px;
+    font-style: normal;
+    color: #FFFFFF;
+
+}
+
+.farewell .button_farewell {
+    width: 198.8px;
+    height: 60px;
+    font-family: 'Gotham Pro Medium', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 155%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #CDA578;
+    box-shadow: 0px 15px 30px rgba(205, 165, 120, 0.5);
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-lefT: 5px;
+    border: 0px;
+}
+
