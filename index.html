@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/custom_checkbox2.css">
     <link rel="stylesheet" href="css/main_page.css">
     <link rel="stylesheet" href="css/first_step.css">
+    <link rel="stylesheet" href="css/fifth_step.css">
     <link rel="stylesheet" href="css/final_post.css">
     <link rel="stylesheet" href="css/third_step.css">
     <link rel="stylesheet" href="css/fourth_step.css">
@@ -17,6 +18,8 @@
     <link rel="stylesheet" href="css/justify_content.css">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/welcome.css">
+
     <title>Элитная недвижимость в Дубаи</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -33,36 +36,154 @@
     </div>
     <div class="content_main">
         <div class="content_block">
-            <div class="content" style="display: none">
-                <div class="orange_block">
-                    <p class="orange_text">полная база предложений</p>
-                </div>
-                <div class="attention_block">
-                    <h1 class="attention_text">Недвижимость Дубая<br> для жизни и инвестиций</h1>
-                </div>
-                <div class="main_btn_block">
-                    <button class="main_btn">Начать быстрый поиск</button>
+            <div class="welcome" style="display: none">
+                <h2 class="orange_text">Полная база предложений</h2>
+                <h1 class="attention_text">Недвижимость Дубая для жизни и инвестиций</h1>
+                <div class="button_block">
+                    <button class="button button_main success">Начать быстрый поиск</button>
                 </div>
             </div>
-            <div class="first_step">
+            <div class="first_step" style="display: none">
                 <h1 class="attention_text">Какой тип недвижимости вы рассматриваете?</h1>
                 <h6 class="small_text">Выберите один или несколько вариантов</h6>
                 <div class="checkbox_list" id="first">
-                    <input type="checkbox" class="custom-checkbox" id="1" name="1" value="">
-                    <label for="1">Жилые апартаменты &nbsp/для жизни и инвестиций/ </label>
-                    <input type="checkbox" class="custom-checkbox" id="2" name="2" value="">
-                    <label for="2">Апартаменты в отеле &nbsp/только для инвестиций/</label>
-                    <input type="checkbox" class="custom-checkbox" id="3" name="3" value="">
-                    <label for="3">Пентхаусы /для жизни/</label>
-                    <input type="checkbox" class="custom-checkbox" id="4" name="4" value="">
-                    <label for="4">Таунхаусы&nbsp;/для жизни и инвестиций/</label>
-                    <input type="checkbox" class="custom-checkbox" id="5" name="5" value="">
-                    <label for="5">Виллы&nbsp;/для жизни и инвестиций/</label>
+                    <input type="checkbox" class="custom-checkbox" id="11" >
+                    <label for="11">Жилые апартаменты /для жизни и инвестиций/ </label>
+                    <input type="checkbox" class="custom-checkbox" id="12" >
+                    <label for="12">Апартаменты в отеле /только для инвестиций/</label>
+                    <input type="checkbox" class="custom-checkbox" id="13" >
+                    <label for="13">Пентхаусы /для жизни/</label>
+                    <input type="checkbox" class="custom-checkbox" id="14" >
+                    <label for="14">Таунхаусы /для жизни и инвестиций/</label>
+                    <input type="checkbox" class="custom-checkbox" id="15" >
+                    <label for="15">Виллы /для жизни и инвестиций/</label>
                 </div>
                 <div class="button_block">
                     <button class="button button_lg decline">Далее</button>
                 </div>
             </div>
+            <div class="second_step" style="display: none">
+                <h1 class="attention_text">Укажите наиболее важные параметры?</h1>
+                <h6 class="small_text">Выберите один или несколько вариантов</h6>
+                <div class="checkbox_list" id="second">
+                    <input type="checkbox" class="custom-checkbox" id="21">
+                    <label for="21">Недвижимость на старте продаж </label>
+                    <input type="checkbox" class="custom-checkbox" id="22">
+                    <label for="22">Сданные комплексы</label>
+                    <input type="checkbox" class="custom-checkbox" id="23">
+                    <label for="23">Панорамный вид на воду</label>
+                    <input type="checkbox" class="custom-checkbox" id="24">
+                    <label for="24">Близость к пляжу до 10 мин.</label>
+                    <input type="checkbox" class="custom-checkbox" id="25">
+                    <label for="25">Акции от застройщиков</label>
+                    <input type="checkbox" class="custom-checkbox" id="26">
+                    <label for="26">Консьерж сервис</label>
+                    <input type="checkbox" class="custom-checkbox" id="27">
+                    <label for="27">Наличие бассейна</label>
+                    <input type="checkbox" class="custom-checkbox" id="28" value="">
+                    <label for="28">Наличие ресторана</label>
+                    <input type="checkbox" class="custom-checkbox" id="29" value="">
+                    <label for="29">Наличие спортзала</label>
+                    <input type="checkbox" class="custom-checkbox" id="211" value="">
+                    <label for="211">Наличие SPA</label>
+                </div>
+                <div class="button_block">
+                    <button class="button button_sm button_prev">Назад</button>
+                    <button class="button button_sm button_next decline">Далее</button>
+                </div>
+            </div>
+            <div class="third_step" style="display: none">
+                <h1 class="attention_text">Какое количество спален вам нужно?</h1>
+                <h6 class="small_text">Выберите один вариант ответа</h6>
+                <div class="checkbox_list" id="third">
+                    <input type="checkbox" class="custom-checkbox" id="31">
+                    <label for="31">1 спальня </label>
+                    <input type="checkbox" class="custom-checkbox" id="32">
+                    <label for="32">2 спальни</label>
+                    <input type="checkbox" class="custom-checkbox" id="33">
+                    <label for="33">3 спальни</label>
+                    <input type="checkbox" class="custom-checkbox" id="34">
+                    <label for="34">более 3 спален</label>
+                </div>
+                <div class="button_block">
+                    <button class="button button_sm button_prev">Назад</button>
+                    <button class="button button_sm button_next decline">Далее</button>
+                </div>
+            </div>
+            <div class="fourth_step" style="display: none">
+                <h1 class="attention_text">На какой бюджет вы ориентируетесь?</h1>
+                <h6 class="small_text">Выберите один вариант ответа</h6>
+                <div class="checkbox_list" id="fourth">
+                    <input type="checkbox" class="custom-checkbox" id="41">
+                    <label for="41">$ 250 000 - 350 000</label>
+                    <input type="checkbox" class="custom-checkbox" id="42">
+                    <label for="42">$ 350 000 - 450 000</label>
+                    <input type="checkbox" class="custom-checkbox" id="43">
+                    <label for="43">$ 450 000 - 550 000</label>
+                    <input type="checkbox" class="custom-checkbox" id="44">
+                    <label for="44">Более $ 550 000</label>
+                </div>
+                <div class="button_block">
+                    <button class="button button_sm button_prev">Назад</button>
+                    <button class="button button_sm button_next decline">Далее</button>
+                </div>
+            </div>
+            <div class="fifth_step" style="display: none">
+                <h1 class="attention_text">Система подбирает подходящие варианты</h1>
+                <div class="indicator_block">
+                    <div class="percents_block">
+                        <h3 class="percents">0</h3><h3 class="percents">%</h3>
+                    </div>
+                    <div class="indicator">
+                        <div class="item item_1"></div>
+                        <div class="item item_2"></div>
+                        <div class="item item_3"></div>
+                        <div class="item item_4"></div>
+                        <div class="item item_5"></div>
+                        <div class="item item_6"></div>
+                        <div class="item item_7"></div>
+                        <div class="item item_8"></div>
+                        <div class="item item_9"></div>
+                        <div class="item item_10"></div>
+                        <div class="item item_11"></div>
+                        <div class="item item_12"></div>
+                        <div class="item item_13"></div>
+                        <div class="item item_14"></div>
+                        <div class="item item_15"></div>
+                        <div class="item item_16"></div>
+                        <div class="item item_17"></div>
+                        <div class="item item_18"></div>
+                        <div class="item item_19"></div>
+                        <div class="item item_20"></div>
+                        <div class="item item_21"></div>
+                        <div class="item item_22"></div>
+                        <div class="item item_23"></div>
+                        <div class="item item_24"></div>
+                        <div class="item item_25"></div>
+                        <div class="item item_26"></div>
+                        <div class="item item_27"></div>
+                        <div class="item item_28"></div>
+                        <div class="item item_29"></div>
+                        <div class="item item_30"></div>
+                        <div class="item item_31"></div>
+                        <div class="item item_32"></div>
+                    </div>
+
+                </div>
+                <div class="count_block">
+                    <h6 class="small_text">Обработано </h6><h6 class="small_text_white"></h6>
+                </div>
+
+
+            </div>
+
+            <div class="final_step" style="">
+                <h1 class="attention_text">Система подбирает подходящие варианты</h1>
+                <h6 class="small_text">Есть выгодные предложения и лоты из закрытых продаж</h6>
+
+            </div>
+
+
         </div>
     </div>
 </div>

@@ -1,16 +1,12 @@
-.first_step > .button_block {
-    margin-top: 48px;
-}
-
-.first_step > .checkbox_list {
+.third_step .checkbox_list {
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 13px;
-    height: 177px;
+    height: 139px;
     margin-top: 40px;
 }
 
-.first_step > .small_text {
+.third_step .small_text {
     width: 376px;
     height: 25px;
     font-family: 'Gotham Pro Light', sans-serif;
@@ -22,9 +18,9 @@
     margin-top: 9px;
 }
 
-.first_step > .attention_text {
+.third_step .attention_text {
     margin-top: 84px;
-    width: 649px;
+    width: 499px;
     height: 116px;
     font-family: 'Gotham Pro Medium', sans-serif;
     font-style: normal;
@@ -32,4 +28,13 @@
     font-size: 45px;
     line-height: 130%;
     color: #FFFFFF;
+}
+
+.third_step .button_block {
+    margin-top: 48px;
+    font-family: 'Gotham Pro Medium', sans-serif;
+}
+
+.third_step .button_block .button_next {
+    margin-left: 34px;
 }

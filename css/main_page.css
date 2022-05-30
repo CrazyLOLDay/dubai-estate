@@ -76,6 +76,10 @@ button {
     margin-top: 5px;
 }
 
+.logo_block {
+    cursor: pointer;
+}
+
 /*  Контейнер  */
 
 .content_main {
@@ -89,63 +93,27 @@ button {
     width: 79.2%;
 }
 
-.content_block .content {
-    width: 100%;
-    height: 278px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 140px;
-}
 
-.logo_block {
-    cursor: pointer;
-}
 
-.orange_text {
-    font-family: Gotham Pro, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    text-align: left;
-    color: #CDA578;
-    text-transform: uppercase;
-}
 
-.main_btn {
-    width: 280px;
-    height: 70px;
-    background: #CDA578;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    margin-top: 34px;
-    font-family: Gotham Pro, sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 25px;
-    border: 0;
-    border-radius: 5px;
-    box-shadow: 0 15px 30px rgba(205, 165, 120, 0.5);
-}
 
-.content .main_btn > button:hover {
-    background: #F0CCA3;
-}
+
 
 /* Активная и неактивная кнопка */
 
 .button {
     border: 0px;
     border-radius: 5px;
-    font-family: 'Gotham Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 155%;
     text-align: center;
     color: #FFFFFF;
+}
+
+.button_block {
+    height: 70px;
 }
 
 .button_standard {
@@ -159,14 +127,27 @@ button {
 }
 
 .button_prev {
+    border: 2px solid #878B90;
+    background: rgba(28, 28, 28, 0);
+    color: #878B90;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
     box-sizing: border-box;
     width: 185px;
     height: 50px;
-    border: 2px solid #878B90;
+    border-radius: 5px;
 }
 
 .button_prev:hover {
     background: #FFFFFF;
+}
+
+.button_lg {
+    width: 262px;
+    height: 70px;
 }
 
 .success {

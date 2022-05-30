@@ -1,0 +1,43 @@
+.welcome .button_block {
+    margin-top: 34px;
+}
+
+.welcome .button_main {
+    width: 280px;
+    height: 70px;
+    background: #CDA578;
+    box-shadow: 0px 15px 30px rgba(205, 165, 120, 0.5);
+    border-radius: 5px;
+    font-family: 'Gotham Pro Medium', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 155%;
+    color: #FFFFFF;
+}
+
+.welcome .orange_text {
+    width: 386px;
+    height: 26px;
+    font-family: 'Gotham Pro Medium', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #CDA578;
+    margin-top: 140px;
+}
+
+.welcome .attention_text {
+    width: 662px;
+    height: 124px;
+    font-family: 'Gotham Pro Medium', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
