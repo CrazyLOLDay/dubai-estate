@@ -6,11 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="css/custom_checkbox2.css">
     <link rel="stylesheet" href="css/main_page.css">
     <link rel="stylesheet" href="css/first_step.css">
     <link rel="stylesheet" href="css/fifth_step.css">
-    <link rel="stylesheet" href="css/final_post.css">
+    <link rel="stylesheet" href="css/final_step.css">
     <link rel="stylesheet" href="css/third_step.css">
     <link rel="stylesheet" href="css/fourth_step.css">
     <link rel="stylesheet" href="css/second_step.css">
@@ -19,6 +18,8 @@
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/welcome.css">
+    <link rel="stylesheet" href="css/media360.css">
+    <link rel="stylesheet" href="css/farewell.css">
 
     <title>Элитная недвижимость в Дубаи</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -41,6 +42,7 @@
                 <h1 class="attention_text">Недвижимость Дубая для жизни и инвестиций</h1>
                 <div class="button_block">
                     <button class="button button_main success">Начать быстрый поиск</button>
+                    <button class="button button_main_mobile success">Начать подбор</button>
                 </div>
             </div>
             <div class="first_step" style="display: none">
@@ -59,7 +61,7 @@
                     <label for="15">Виллы /для жизни и инвестиций/</label>
                 </div>
                 <div class="button_block">
-                    <button class="button button_lg decline">Далее</button>
+                    <button class="button button_lg button_first success">Далее</button>
                 </div>
             </div>
             <div class="second_step" style="display: none">
@@ -89,7 +91,7 @@
                 </div>
                 <div class="button_block">
                     <button class="button button_sm button_prev">Назад</button>
-                    <button class="button button_sm button_next decline">Далее</button>
+                    <button class="button button_sm button_second success">Далее</button>
                 </div>
             </div>
             <div class="third_step" style="display: none">
@@ -107,7 +109,7 @@
                 </div>
                 <div class="button_block">
                     <button class="button button_sm button_prev">Назад</button>
-                    <button class="button button_sm button_next decline">Далее</button>
+                    <button class="button button_sm button_third success">Далее</button>
                 </div>
             </div>
             <div class="fourth_step" style="display: none">
@@ -125,11 +127,12 @@
                 </div>
                 <div class="button_block">
                     <button class="button button_sm button_prev">Назад</button>
-                    <button class="button button_sm button_next decline">Далее</button>
+                    <button class="button button_sm button_fourth success">Далее</button>
                 </div>
             </div>
             <div class="fifth_step" style="display: none">
                 <h1 class="attention_text">Система подбирает подходящие варианты</h1>
+                <h1 class="attention_text_mobile">Система начала подбор вариантов</h1>
                 <div class="indicator_block">
                     <div class="percents_block">
                         <h3 class="percents">0</h3><h3 class="percents">%</h3>
@@ -177,10 +180,30 @@
 
             </div>
 
-            <div class="final_step" style="">
-                <h1 class="attention_text">Система подбирает подходящие варианты</h1>
+            <div class="final_step" style="display: none">
+                <h1 class="attention_text">Подобрано 11 вариантов по вашим параметрам</h1>
                 <h6 class="small_text">Есть выгодные предложения и лоты из закрытых продаж</h6>
+                <div class="input_block">
+                    <input type="text" class="inputs phone" name="phone" maxlength="17" placeholder="Ваш телефон" />
+                    <input type="text" class="inputs name" name="username" placeholder="Ваше имя" maxlength="30" />
+                </div>
 
+                <button class="button button_standard success">Посмотреть <span id="variants2"></span></button>
+            </div>
+
+            <div class="farewell">
+                <h1 class="attention_text">Спасибо!</h1>
+                <div class="whatsapp_block">
+                    <div class="whatsapp_picture">
+                        <img class="whatsapp" src="img/whatsapp.png" />
+                        <img class="whatsapp2" src="img/Ellipse2.png" />
+                        <p class="whatsapp_notice">1</p>
+                    </div>
+                    <div class="whatsapp_expert">
+                        <p>Эксперт пришлет все варианты по WhatsApp</p>
+                    </div>
+                </div>
+                <button class="button_main">Начать новый подбор</button>
             </div>
 
 

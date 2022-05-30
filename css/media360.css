@@ -1,0 +1,245 @@
+@media (max-width: 360px) {
+
+    body {
+        cursor: default;
+        background: url("../img/quize_mob.jpg");
+        background-size: cover;
+    }
+
+    .header_main .header, .content_main .content_block  {
+        width: 89%;
+    }
+
+    .welcome .orange_text {
+        margin-top: 132px;
+        font-size: 12px;
+    }
+
+    .welcome .attention_text {
+        width: 320px;
+        height: 126px;
+
+        font-family: 'Gotham Pro Medium', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 130%;
+        /* or 42px */
+
+
+        color: #FFFFFF;
+    }
+
+    .welcome .button_block {
+        margin-top: 39px;
+    }
+
+    .welcome .button_main {
+        display: none;
+    }
+
+    .welcome .button_main_mobile {
+        display: block;
+        width: 185px;
+        height: 60px;
+        font-family: 'Gotham Pro Regular', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 155%;
+    }
+
+    .first_step .attention_text  {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .first_step .small_text, .second_step .small_text, .third_step .small_text, .fourth_step .small_text  {
+        font-size: 12px;
+    }
+
+    .second_step .small_text {
+        margin-top: 6px;
+    }
+
+    .checkbox_list > label {
+        font-size: 14px;
+    }
+
+    .second_step > .attention_text {
+        height: 72px;
+    }
+
+    .custom-checkbox+label::before {
+        width: 20px;
+        height: 20px;
+    }
+
+    .first_step .button_lg {
+        width: 185px;
+        height: 60px;
+        font-family: "Gotham Pro Regular", sans-serif;
+        box-shadow: 0px 15px 30px rgba(205, 165, 120, 0.5);
+        border-radius: 5px;
+    }
+
+    .first_step > .checkbox_list {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 155%;
+        color: #FFFFFF;
+    }
+
+    .second_step > .checkbox_list {
+        display: flex;
+        height: 301px;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 58px;
+    }
+
+    .second_step .button_block {
+        margin-top: 30px;
+        height: 50px;
+    }
+
+    .second_step .attention_text {
+        font-size: 28px;
+        width: 100%;
+        margin-top: 89px;
+    }
+
+    .final_step .attention_text {
+        width: 220px;
+        height: 168px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 130%;
+        color: #FFFFFF;
+        margin-top: 86px;
+    }
+
+    .final_step .small_text {
+        width: 180px;
+        height: 38px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 155%;
+        color: #B7BBC0;
+    }
+
+    .button_standard {
+        margin-top: 20px;
+    }
+
+    .final_step .input_block {
+        margin-top: 25px;
+    }
+
+
+    .third_step .attention_text {
+        font-size: 28px;
+        width: 100%;
+        margin-top: 89px;
+        height: 73px;
+    }
+
+    .fourth_step .small_text {
+        width: 376px;
+        height: 25px;
+        font-family: 'Gotham Pro Light', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16.5px;
+        line-height: 155%;
+        color: #B7BBC0;
+        margin-top: 9px;
+    }
+
+    .fourth_step .checkbox_list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 13px;
+        height: 139px;
+    }
+
+    .fourth_step .button_block {
+        margin-top: 42px;
+    }
+
+    .fourth_step .attention_text {
+        font-size: 28px;
+        width: 310px;
+        margin-top: 89px;
+        height: 73px;
+    }
+
+    .fifth_step .attention_text {
+        display: none;
+    }
+
+    .fifth_step .attention_text_mobile {
+        display: block;
+        font-size: 28px;
+        width: 310px;
+        margin-top: 179px;
+        height: 73px;
+        font-family: 'Gotham Pro Medium', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+
+    .fifth_step .count_block {
+        margin-top: 17px;
+    }
+
+    .fourth_step .checkbox_list {
+        margin-top: 24px;
+    }
+
+    .second_step .button_block {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 320px;
+        margin-top: 30px;
+    }
+
+    .second_step .button_block .button_next {
+        margin-left: 0;
+    }
+
+    .button_first, .button_second, .button_third, .button_fourth, .button_fifth, .button_prev {
+        font-family: 'Gotham Pro Regular', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .button_sm {
+        height: 50px;
+        width: 150px;
+    }
+
+    .button_second, .button_third, .button_fourth, .button_fifth {
+        margin-left: 10px;
+    }
+
+    .first_step .attention_text  {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .third_step .checkbox_list {
+        margin-top: 24px;
+    }
+
+    .third_step .button_block {
+        margin-top: 42px;
+    }
+
+}
