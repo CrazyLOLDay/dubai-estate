@@ -67,6 +67,36 @@
     margin-top: 49px;
 }
 
+.description_desktop {
+    height: 25px;
+    font-family: 'Gotham Pro Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    color: #FFFFFF;
+}
+
+.description_desktop_mobile {
+    font-family: "Gotham Pro Light", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: absolute;
+    width: 306px;
+    height: 22px;
+    left: 53px;
+    top: 358px;
+    font-style: normal;
+    color: #FFFFFF;
+
+}
+
+
+}
+
 .farewell .attention_text {
     margin-top: 134px;
     width: 600px;

@@ -41,7 +41,11 @@
     padding-top: 5px;
 }
 
-.percents_block .percents {
+.percents_block .percents_salt {
+    display: inline;
+}
+
+.percents_block .percents_count {
     display: inline;
 }
 
@@ -59,7 +63,11 @@
     background: rgba(205, 165, 120, 0.3);
 }
 
-
+.indicator .item2 {
+    width: 3px;
+    height: 25px;
+    background: #CDA578;
+}
 
 .count_block .small_text {
     width: 376px;

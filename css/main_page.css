@@ -26,9 +26,6 @@ body {
     display: block;
 }
 
-button {
-    cursor: pointer;
-}
 
 .container {
     min-height: 100vh;
@@ -123,7 +120,7 @@ button {
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .button_sm {
@@ -156,6 +153,7 @@ button {
 }
 
 .success {
+    cursor: pointer;
     background: #CDA578;
     box-shadow: 0px 15px 30px rgba(205, 165, 120, 0.5);
 }
@@ -184,5 +182,19 @@ button {
     justify-content: flex-start;
 }
 
+.welcome .button_main_mobile {
+    display: none;
+    width: 185px;
+    height: 60px;
+    font-family: 'Gotham Pro Regular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+}
+
+.logo_block {
+    cursor: pointer;
+}
 
 

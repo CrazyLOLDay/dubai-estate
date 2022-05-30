@@ -37,7 +37,7 @@
     </div>
     <div class="content_main">
         <div class="content_block">
-            <div class="welcome" style="display: none">
+            <div class="welcome" style="">
                 <h2 class="orange_text">Полная база предложений</h2>
                 <h1 class="attention_text">Недвижимость Дубая для жизни и инвестиций</h1>
                 <div class="button_block">
@@ -49,19 +49,19 @@
                 <h1 class="attention_text">Какой тип недвижимости вы рассматриваете?</h1>
                 <h6 class="small_text">Выберите один или несколько вариантов</h6>
                 <div class="checkbox_list" id="first">
-                    <input type="checkbox" class="custom-checkbox" id="11" >
-                    <label for="11">Жилые апартаменты /для жизни и инвестиций/ </label>
-                    <input type="checkbox" class="custom-checkbox" id="12" >
-                    <label for="12">Апартаменты в отеле /только для инвестиций/</label>
-                    <input type="checkbox" class="custom-checkbox" id="13" >
-                    <label for="13">Пентхаусы /для жизни/</label>
-                    <input type="checkbox" class="custom-checkbox" id="14" >
-                    <label for="14">Таунхаусы /для жизни и инвестиций/</label>
-                    <input type="checkbox" class="custom-checkbox" id="15" >
-                    <label for="15">Виллы /для жизни и инвестиций/</label>
+                    <input type="checkbox" class="custom-checkbox" id="1" name="1" value="">
+                    <label for="1">Жилые апартаменты &nbsp;<text class="text_small_mob"> /для жизни и инвестиций/ </text></label><br>
+                    <input type="checkbox" class="custom-checkbox" id="2" name="2" value="">
+                    <label for="2">Апартаменты в отеле &nbsp;<text class="text_small_mob"> /только для инвестиций/</text></label><br>
+                    <input type="checkbox" class="custom-checkbox" id="3" name="3" value="">
+                    <label for="3">Пентхаусы&nbsp; <text class="text_small_mob"> /для жизни/</text></label><br>
+                    <input type="checkbox" class="custom-checkbox" id="4" name="4" value="">
+                    <label for="4">Таунхаусы&nbsp; <text class="text_small_mob"> /для жизни и инвестиций/</text></label><br>
+                    <input type="checkbox" class="custom-checkbox" id="5" name="5" value="">
+                    <label for="5">Виллы&nbsp; <text class="text_small_mob"> /для жизни и инвестиций/</text></label><br>
                 </div>
                 <div class="button_block">
-                    <button class="button button_lg button_first success">Далее</button>
+                    <button class="button button_lg button_first decline" disabled>Далее</button>
                 </div>
             </div>
             <div class="second_step" style="display: none">
@@ -91,85 +91,85 @@
                 </div>
                 <div class="button_block">
                     <button class="button button_sm button_prev">Назад</button>
-                    <button class="button button_sm button_second success">Далее</button>
+                    <button class="button button_sm button_second decline" disabled>Далее</button>
                 </div>
             </div>
             <div class="third_step" style="display: none">
                 <h1 class="attention_text">Какое количество спален вам нужно?</h1>
                 <h6 class="small_text">Выберите один вариант ответа</h6>
-                <div class="checkbox_list" id="third">
-                    <input type="checkbox" class="custom-checkbox" id="31">
+                <div class="checkbox_list checked" id="third">
+                    <input type="radio" class="custom-checkbox" id="31" name="field">
                     <label for="31">1 спальня </label>
-                    <input type="checkbox" class="custom-checkbox" id="32">
+                    <input type="radio" class="custom-checkbox" id="32" name="field">
                     <label for="32">2 спальни</label>
-                    <input type="checkbox" class="custom-checkbox" id="33">
+                    <input type="radio" class="custom-checkbox" id="33" name="field">
                     <label for="33">3 спальни</label>
-                    <input type="checkbox" class="custom-checkbox" id="34">
+                    <input type="radio" class="custom-checkbox" id="34" name="field">
                     <label for="34">более 3 спален</label>
                 </div>
                 <div class="button_block">
                     <button class="button button_sm button_prev">Назад</button>
-                    <button class="button button_sm button_third success">Далее</button>
+                    <button class="button button_sm button_third">Далее</button>
                 </div>
             </div>
             <div class="fourth_step" style="display: none">
                 <h1 class="attention_text">На какой бюджет вы ориентируетесь?</h1>
                 <h6 class="small_text">Выберите один вариант ответа</h6>
                 <div class="checkbox_list" id="fourth">
-                    <input type="checkbox" class="custom-checkbox" id="41">
+                    <input type="radio" class="custom-checkbox" id="41" name="field2">
                     <label for="41">$ 250 000 - 350 000</label>
-                    <input type="checkbox" class="custom-checkbox" id="42">
+                    <input type="radio" class="custom-checkbox" id="42" name="field2">
                     <label for="42">$ 350 000 - 450 000</label>
-                    <input type="checkbox" class="custom-checkbox" id="43">
+                    <input type="radio" class="custom-checkbox" id="43" name="field2">
                     <label for="43">$ 450 000 - 550 000</label>
-                    <input type="checkbox" class="custom-checkbox" id="44">
+                    <input type="radio" class="custom-checkbox" id="44" name="field2">
                     <label for="44">Более $ 550 000</label>
                 </div>
                 <div class="button_block">
                     <button class="button button_sm button_prev">Назад</button>
-                    <button class="button button_sm button_fourth success">Далее</button>
+                    <button class="button button_sm button_fourth" disabled>Далее</button>
                 </div>
             </div>
             <div class="fifth_step" style="display: none">
-                <h1 class="attention_text">Система подбирает подходящие варианты</h1>
-                <h1 class="attention_text_mobile">Система начала подбор вариантов</h1>
+                <h1 class="attention_text" id="desktop">Система подбирает подходящие варианты</h1>
+                <h1 class="attention_text" id="mob">Система начала подбор вариантов</h1>
                 <div class="indicator_block">
                     <div class="percents_block">
-                        <h3 class="percents">0</h3><h3 class="percents">%</h3>
+                        <h3 class="percents_count">0</h3><h3 class="percents_salt">%</h3>
                     </div>
                     <div class="indicator">
-                        <div class="item item_1"></div>
-                        <div class="item item_2"></div>
-                        <div class="item item_3"></div>
-                        <div class="item item_4"></div>
-                        <div class="item item_5"></div>
-                        <div class="item item_6"></div>
-                        <div class="item item_7"></div>
-                        <div class="item item_8"></div>
-                        <div class="item item_9"></div>
-                        <div class="item item_10"></div>
-                        <div class="item item_11"></div>
-                        <div class="item item_12"></div>
-                        <div class="item item_13"></div>
-                        <div class="item item_14"></div>
-                        <div class="item item_15"></div>
-                        <div class="item item_16"></div>
-                        <div class="item item_17"></div>
-                        <div class="item item_18"></div>
-                        <div class="item item_19"></div>
-                        <div class="item item_20"></div>
-                        <div class="item item_21"></div>
-                        <div class="item item_22"></div>
-                        <div class="item item_23"></div>
-                        <div class="item item_24"></div>
-                        <div class="item item_25"></div>
-                        <div class="item item_26"></div>
-                        <div class="item item_27"></div>
-                        <div class="item item_28"></div>
-                        <div class="item item_29"></div>
-                        <div class="item item_30"></div>
-                        <div class="item item_31"></div>
-                        <div class="item item_32"></div>
+                        <div class="item" id="101"></div>
+                        <div class="item" id="102"></div>
+                        <div class="item" id="103"></div>
+                        <div class="item" id="104"></div>
+                        <div class="item" id="105"></div>
+                        <div class="item" id="106"></div>
+                        <div class="item" id="107"></div>
+                        <div class="item" id="108"></div>
+                        <div class="item" id="109"></div>
+                        <div class="item" id="110"></div>
+                        <div class="item" id="111"></div>
+                        <div class="item" id="112"></div>
+                        <div class="item" id="113"></div>
+                        <div class="item" id="114"></div>
+                        <div class="item" id="115"></div>
+                        <div class="item" id="116"></div>
+                        <div class="item" id="117"></div>
+                        <div class="item" id="118"></div>
+                        <div class="item" id="119"></div>
+                        <div class="item" id="120"></div>
+                        <div class="item" id="121"></div>
+                        <div class="item" id="122"></div>
+                        <div class="item" id="123"></div>
+                        <div class="item" id="124"></div>
+                        <div class="item" id="125"></div>
+                        <div class="item" id="126"></div>
+                        <div class="item" id="127"></div>
+                        <div class="item" id="128"></div>
+                        <div class="item" id="129"></div>
+                        <div class="item" id="130"></div>
+                        <div class="item" id="131"></div>
+                        <div class="item" id="132"></div>
                     </div>
 
                 </div>
@@ -181,17 +181,17 @@
             </div>
 
             <div class="final_step" style="display: none">
-                <h1 class="attention_text">Подобрано 11 вариантов по вашим параметрам</h1>
+                <h1 class="attention_text">Подобрано <span id="variants"></span> по вашим параметрам</h1>
                 <h6 class="small_text">Есть выгодные предложения и лоты из закрытых продаж</h6>
                 <div class="input_block">
                     <input type="text" class="inputs phone" name="phone" maxlength="17" placeholder="Ваш телефон" />
                     <input type="text" class="inputs name" name="username" placeholder="Ваше имя" maxlength="30" />
                 </div>
 
-                <button class="button button_standard success">Посмотреть <span id="variants2"></span></button>
+                <button class="button button_standard submit_final success">Посмотреть <span id="variants2"></span></button>
             </div>
 
-            <div class="farewell">
+            <div class="farewell" style="display: none">
                 <h1 class="attention_text">Спасибо!</h1>
                 <div class="whatsapp_block">
                     <div class="whatsapp_picture">
@@ -211,6 +211,8 @@
     </div>
 </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="script/buttons.js"></script>
+<script type="text/javascript" src="script/phone-input.js"></script>
 </body>
 </html>

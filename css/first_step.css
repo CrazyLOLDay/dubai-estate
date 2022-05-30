@@ -1,13 +1,12 @@
 .first_step > .button_block {
-    margin-top: 48px;
+    margin-top: 35px;
 }
 
 .first_step > .checkbox_list {
     display: grid;
     grid-template-columns: 1fr;
-    grid-row-gap: 13px;
-    height: 177px;
-    margin-top: 40px;
+    grid-row-gap: 0px;
+    height: 217px;
 }
 
 .first_step > .small_text {
@@ -20,6 +19,7 @@
     line-height: 155%;
     color: #B7BBC0;
     margin-top: 9px;
+    padding-bottom: 25px;
 }
 
 .first_step > .attention_text {

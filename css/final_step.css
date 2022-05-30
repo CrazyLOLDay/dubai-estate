@@ -12,7 +12,7 @@
 
 .final_step .attention_text {
     margin-top: 134px;
-    width: 600px;
+    width: 650px;
     height: 116px;
     font-family: 'Gotham Pro Medium', sans-serif;
     font-style: normal;
@@ -25,7 +25,7 @@
 .final_step .input_block {
     margin-top: 33px;
     width: 278px;
-    height: 117px;
+    height: 51px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -47,4 +47,8 @@
 
 .input_block .inputs:focus {
     border: 2px #FFFFFF solid;
+}
+
+.name {
+    display: none;
 }

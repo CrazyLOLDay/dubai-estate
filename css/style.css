@@ -52,3 +52,10 @@
     background-color: #e9ecef;
 }
 
+#mob {
+    display: none;
+}
+
+#variants {
+    color: #CDA578;
+}
