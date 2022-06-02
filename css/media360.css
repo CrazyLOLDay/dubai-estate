@@ -1,4 +1,4 @@
-@media (max-width: 360px) {
+@media (max-width: 500px) {
 
     body {
         cursor: default;
@@ -71,6 +71,13 @@
         font-size: 12px;
     }
 
+    .first_step .small_text {
+        padding-bottom: 0px;
+        margin-top: 5px;
+        margin-left: 1px;
+        height: 19px;
+    }
+
     .second_step .small_text {
         margin-top: 6px;
     }
@@ -111,6 +118,7 @@
 
     .first_step > .checkbox_list {
         margin-top: 30px;
+        height: 148px;
     }
 
     .second_step > .checkbox_list {

@@ -1,27 +1,21 @@
 $(document).ready(function () {
     $('.button_main, .button_main_mobile').on('click', function() {
-       $('.success').removeClass('success').addClass('decline');
        $('.custom-checkbox:checked').prop('checked', false);
        $('#third > input:first').prop('checked', true);
        $('#fourth > input:first').prop('checked', true);
        $('.button_first').attr('disabled', 'disabled');
        $('.button_second').attr('disabled', 'disabled');
-       $('.button_third').addClass('success').removeAttr('disabled');
-       $('.button_fourth').addClass('success').removeAttr('disabled');
        $(this).parent().parent().fadeOut(1, function() {
            $('.first_step').fadeIn(1);
        });
     });
 
     $('.button_main, .button_farewell').on('click', function() {
-        $('.success').removeClass('success').addClass('decline');
         $('.custom-checkbox:checked').prop('checked', false);
         $('#third > input:first').prop('checked', true);
         $('#fourth > input:first').prop('checked', true);
         $('.button_first').attr('disabled', 'disabled');
         $('.button_second').attr('disabled', 'disabled');
-        $('.button_third').addClass('success').removeAttr('disabled');
-        $('.button_fourth').addClass('success').removeAttr('disabled');
         $(this).parent().fadeOut(1, function() {
             $('.first_step').fadeIn(1);
         });
@@ -41,12 +35,14 @@ $(document).ready(function () {
 
     $('.button_second').on('click', function() {
         $(this).parent().parent().fadeOut(1, function() {
+        $('.button_third').removeClass('decline').addClass('success').removeAttr('disabled');
             $('.third_step').fadeIn(1);
         });
     });
 
     $('.button_third').on('click', function() {
         $(this).parent().parent().fadeOut(1, function() {
+        $('.button_fourth').removeClass('decline').addClass('success').removeAttr('disabled');
             $('.fourth_step').fadeIn(1);
         });
     });
